@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hồ sơ - Cổng thông tin sinh viên</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container">
+    <div class="brand-row">
+      <div class="brand">
+        <img class="brand-logo" src="logo.png" alt="Logo ĐHBK">
+        <div>
+          <h1>ĐẠI HỌC BÁCH KHOA HÀ NỘI</h1>
+          <p>Cổng thông tin sinh viên</p>
+        </div>
+      </div>
+      <div class="greeting">
+        <img class="bk-icon" src="icon.png" alt="BK">
+        <div>
+          <strong>XIN CHÀO</strong>
+          <span>BẠN SINH VIÊN NĂM NHẤT</span>
+        </div>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="#">Trang chủ</a>
+      <a href="#">Ngoại khóa</a>
+      <a href="#">Hướng nghiệp</a>
+      <a href="#">Học bổng</a>
+      <a href="#">Chấm điểm</a>
+      <a href="#">Hành chính</a>
+      <a href="#">Q&amp;A</a>
+      <a href="#">Hồ sơ</a>
+      <a href="#">Nhập học</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <div class="breadcrumb"><a href="#">CTSV</a> / <a href="#">Hồ sơ</a></div>
+
+  <div class="layout">
+    <!-- Cột trái -->
+    <aside class="left">
+      <div class="card profile-card">
+        <div class="cover">
+          <img class="cover-img" src="background.png" alt="">
+          <div class="avatar"><img src="avata.jpg" alt="SOICT"></div>
+        </div>
+        <ul class="info">
+          <li>MS: 20202020</li>
+          <li>Họ tên: Đại học Bách Khoa</li>
+          <li>Lớp: Khoa học máy tính</li>
+          <li>Email: bkhn@sis.hust.edu.vn</li>
+          <li>Email cá nhân: bkhn@gmail.com</li>
+        </ul>
+      </div>
+
+      <div class="card status-card">
+        <input type="radio" name="status" id="r-st-trangthai" class="tab-radio" checked>
+        <input type="radio" name="status" id="r-st-quanly" class="tab-radio">
+        <div class="tabs">
+          <label class="tab" for="r-st-trangthai">Trạng thái</label>
+          <label class="tab" for="r-st-quanly">Quản lý</label>
+        </div>
+        <ul class="status-list tab-panel" id="st-trangthai">
+          <li>Trạng thái học tập: Học</li>
+          <li>CPA: 3.95</li>
+          <li>Nợ: 0 TC</li>
+          <li>Tích lũy: 99 TC</li>
+          <li>Mức cảnh cáo: M0</li>
+          <li>Trình độ:</li>
+        </ul>
+        <ul class="status-list tab-panel" id="st-quanly">
+          <li>Cố vấn học tập:</li>
+          <li>Khoa/Viện: Công nghệ thông tin và Truyền thông</li>
+          <li>Chương trình đào tạo:</li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Cột phải -->
+    <section class="right">
+      <div class="card tabs-card">
+        <input type="radio" name="main" id="r-lylich" class="tab-radio" checked>
+        <input type="radio" name="main" id="r-quyetdinh" class="tab-radio">
+        <input type="radio" name="main" id="r-khenthuong" class="tab-radio">
+        <input type="radio" name="main" id="r-lienhe" class="tab-radio">
+        <input type="radio" name="main" id="r-nhanxet" class="tab-radio">
+        <input type="radio" name="main" id="r-hoatdong" class="tab-radio">
+        <div class="tabs">
+          <label class="tab" for="r-lylich">Lý lịch</label>
+          <label class="tab" for="r-quyetdinh">Quyết định</label>
+          <label class="tab" for="r-khenthuong">Khen thưởng</label>
+          <label class="tab" for="r-lienhe">Liên hệ</label>
+          <label class="tab" for="r-nhanxet">Nhận xét</label>
+          <label class="tab" for="r-hoatdong">Hoạt động tham gia</label>
+        </div>
+        <div class="tab-panel tab-content" id="tab-lylich">
+          <h2 class="sec-title"><span>Thông tin cá nhân</span></h2>
+          <div class="fields cols3">
+            <p>Ngày sinh: 01/01/2000</p><p>Nơi sinh: Việt Nam</p><p class="r">Giới tính:</p>
+            <p>Số CMTND:</p><p>Nơi cấp: Việt Nam</p><p class="r">Ngày cấp:</p>
+            <p>Dân tộc:</p><p>Tôn giáo: Không</p><p class="r">Chi đoàn:</p>
+            <p>Ngày vào Đoàn:</p><p>Ngày vào Đảng:</p><p class="r">Đoàn viên</p>
+          </div>
+          <div class="fields">
+            <p>Đối tượng chính sách:</p>
+            <p>Số thẻ bảo hiểm: 123</p>
+            <p>Địa chỉ thường trú: 1 Đại Cồ Việt</p>
+            <p>Nơi ở hiện tại: 1 Đại Cồ Việt</p>
+          </div>
+
+          <h2 class="sec-title family"><span>Thông tin gia đình</span></h2>
+
+          <div class="person">
+            <h3>Họ và tên bố:</h3>
+            <div class="fields cols3">
+              <p>Dân tộc: Kinh</p><p>Năm sinh:</p><p class="r">Quốc tịch:</p>
+              <p>Nơi làm việc:</p><p>Tôn giáo:</p><p class="r">Nghề nghiệp:</p>
+            </div>
+            <div class="fields"><p>Địa chỉ thường trú:</p><p>Liên hệ:</p></div>
+          </div>
+
+          <div class="person">
+            <h3>Họ và tên mẹ:</h3>
+            <div class="fields cols3">
+              <p>Dân tộc:</p><p>Năm sinh:</p><p class="r">Quốc tịch:</p>
+              <p>Nơi làm việc:</p><p>Tôn giáo:</p><p class="r">Nghề nghiệp:</p>
+            </div>
+            <div class="fields"><p>Địa chỉ thường trú:</p><p>Liên hệ:</p></div>
+          </div>
+
+          <div class="person other">
+            <h3>Thông tin người thân khác:</h3>
+            <div class="row-between"><h3>Thuộc hộ:</h3><h3>Số sổ:</h3></div>
+          </div>
+        </div>
+        <div class="tab-panel tab-content" id="tab-quyetdinh">
+          <h2 class="sec-title"><span>Quyết định</span></h2>
+          <p class="empty">Chưa có quyết định nào.</p>
+        </div>
+        <div class="tab-panel tab-content" id="tab-khenthuong">
+          <h2 class="sec-title"><span>Khen thưởng</span></h2>
+          <p class="empty">Chưa có khen thưởng nào.</p>
+        </div>
+        <div class="tab-panel tab-content" id="tab-lienhe">
+          <h2 class="sec-title"><span>Liên hệ</span></h2>
+          <div class="fields"><p>Email: bkhn@sis.hust.edu.vn</p><p>Email cá nhân: bkhn@gmail.com</p><p>Số điện thoại:</p></div>
+        </div>
+        <div class="tab-panel tab-content" id="tab-nhanxet">
+          <h2 class="sec-title"><span>Nhận xét</span></h2>
+          <p class="empty">Chưa có nhận xét nào.</p>
+        </div>
+        <div class="tab-panel tab-content" id="tab-hoatdong">
+          <h2 class="sec-title"><span>Hoạt động tham gia</span></h2>
+          <p class="empty">Chưa có hoạt động nào.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Biểu đồ -->
+  <div class="charts">
+    <div class="chart">
+      <span class="menu-icon">≡</span>
+      <div class="y-title">Biểu đồ kết quả học tập</div>
+      <div class="plot blue" style="--max:4">
+        <div class="grid">
+          <span style="--v:4.0">4.0</span><span style="--v:3.0">3.0</span>
+          <span style="--v:2.0">2.0</span><span style="--v:1.0">1.0</span><span style="--v:0">0.0</span>
+        </div>
+        <div class="bars">
+          <div class="bar" style="--h:80%"><b>3.2</b><i>202401</i></div>
+          <div class="bar" style="--h:95%"><b>3.8</b><i>202402</i></div>
+          <div class="bar" style="--h:90%"><b>3.6</b><i>202501</i></div>
+          <div class="bar" style="--h:100%"><b>4</b><i>202502</i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chart">
+      <span class="menu-icon">≡</span>
+      <div class="y-title">Điểm rèn luyện</div>
+      <div class="plot green">
+        <div class="grid">
+          <span style="--v:100">100</span><span style="--v:80">80</span><span style="--v:60">60</span>
+          <span style="--v:40">40</span><span style="--v:20">20</span><span style="--v:0">0</span>
+        </div>
+        <div class="bars">
+          <div class="bar" style="--h:98%"><b>98</b><i>202401</i></div>
+          <div class="bar" style="--h:16%"><b>16</b><i>202402</i></div>
+          <div class="bar" style="--h:16%"><b>16</b><i>202051</i></div>
+          <div class="bar" style="--h:30%"><b>30</b><i>20252</i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="skyline" style="background-image:url('footer.png')"></footer>
+
+</body>
+</html>
